@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ŠKL šablonas</title>
+
+    <script type="application/json" id="my-json-data">
+        {"moteris":{"neruko":{"65_69":{"160-179":{"3.0-3.9":27,"4.0-4.9":28,"5.0-5.9":30,"6.0-6.9":31},"140-159":{"3.0-3.9":22,"4.0-4.9":23,"5.0-5.9":24,"6.0-6.9":26},"120-139":{"3.0-3.9":18,"4.0-4.9":19,"5.0-5.9":20,"6.0-6.9":21},"100-119":{"3.0-3.9":15,"4.0-4.9":16,"5.0-5.9":16,"6.0-6.9":17}},"60_64":{"160-179":{"3.0-3.9":20,"4.0-4.9":21,"5.0-5.9":22,"6.0-6.9":24},"140-159":{"3.0-3.9":16,"4.0-4.9":17,"5.0-5.9":18,"6.0-6.9":19},"120-139":{"3.0-3.9":12,"4.0-4.9":13,"5.0-5.9":14,"6.0-6.9":15},"100-119":{"3.0-3.9":10,"4.0-4.9":11,"5.0-5.9":11,"6.0-6.9":12}},"55_59":{"160-179":{"3.0-3.9":14,"4.0-4.9":15,"5.0-5.9":17,"6.0-6.9":18},"140-159":{"3.0-3.9":11,"4.0-4.9":12,"5.0-5.9":13,"6.0-6.9":14},"120-139":{"3.0-3.9":8,"4.0-4.9":9,"5.0-5.9":10,"6.0-6.9":11},"100-119":{"3.0-3.9":7,"4.0-4.9":7,"5.0-5.9":8,"6.0-6.9":9}},"50_54":{"160-179":{"3.0-3.9":10,"4.0-4.9":11,"5.0-5.9":12,"6.0-6.9":14},"140-159":{"3.0-3.9":8,"4.0-4.9":9,"5.0-5.9":9,"6.0-6.9":11},"120-139":{"3.0-3.9":6,"4.0-4.9":6,"5.0-5.9":7,"6.0-6.9":8},"100-119":{"3.0-3.9":4,"4.0-4.9":5,"5.0-5.9":5,"6.0-6.9":6}},"45_49":{"160-179":{"3.0-3.9":7,"4.0-4.9":8,"5.0-5.9":9,"6.0-6.9":10},"140-159":{"3.0-3.9":5,"4.0-4.9":6,"5.0-5.9":7,"6.0-6.9":8},"120-139":{"3.0-3.9":4,"4.0-4.9":4,"5.0-5.9":5,"6.0-6.9":6},"100-119":{"3.0-3.9":3,"4.0-4.9":3,"5.0-5.9":4,"6.0-6.9":4}},"40_44":{"160-179":{"3.0-3.9":5,"4.0-4.9":6,"5.0-5.9":7,"6.0-6.9":8},"140-159":{"3.0-3.9":4,"4.0-4.9":4,"5.0-5.9":5,"6.0-6.9":6},"120-139":{"3.0-3.9":3,"4.0-4.9":3,"5.0-5.9":3,"6.0-6.9":4},"100-119":{"3.0-3.9":2,"4.0-4.9":2,"5.0-5.9":2,"6.0-6.9":3}}},"ruko":{"65_69":{"160-179":{"3.0-3.9":41,"4.0-4.9":42,"5.0-5.9":44,"6.0-6.9":46},"140-159":{"3.0-3.9":34,"4.0-4.9":36,"5.0-5.9":37,"6.0-6.9":39},"120-139":{"3.0-3.9":28,"4.0-4.9":30,"5.0-5.9":31,"6.0-6.9":33},"100-119":{"3.0-3.9":23,"4.0-4.9":24,"5.0-5.9":26,"6.0-6.9":27}},"60_64":{"160-179":{"3.0-3.9":33,"4.0-4.9":35,"5.0-5.9":37,"6.0-6.9":39},"140-159":{"3.0-3.9":27,"4.0-4.9":29,"5.0-5.9":30,"6.0-6.9":32},"120-139":{"3.0-3.9":22,"4.0-4.9":23,"5.0-5.9":25,"6.0-6.9":26},"100-119":{"3.0-3.9":17,"4.0-4.9":18,"5.0-5.9":20,"6.0-6.9":21}},"55_59":{"160-179":{"3.0-3.9":26,"4.0-4.9":28,"5.0-5.9":31,"6.0-6.9":33},"140-159":{"3.0-3.9":21,"4.0-4.9":23,"5.0-5.9":24,"6.0-6.9":26},"120-139":{"3.0-3.9":16,"4.0-4.9":18,"5.0-5.9":19,"6.0-6.9":21},"100-119":{"3.0-3.9":13,"4.0-4.9":14,"5.0-5.9":15,"6.0-6.9":16}},"50_54":{"160-179":{"3.0-3.9":21,"4.0-4.9":23,"5.0-5.9":25,"6.0-6.9":28},"140-159":{"3.0-3.9":16,"4.0-4.9":18,"5.0-5.9":19,"6.0-6.9":22},"120-139":{"3.0-3.9":12,"4.0-4.9":13,"5.0-5.9":15,"6.0-6.9":17},"100-119":{"3.0-3.9":9,"4.0-4.9":10,"5.0-5.9":11,"6.0-6.9":13}},"45_49":{"160-179":{"3.0-3.9":16,"4.0-4.9":18,"5.0-5.9":21,"6.0-6.9":23},"140-159":{"3.0-3.9":12,"4.0-4.9":14,"5.0-5.9":15,"6.0-6.9":17},"120-139":{"3.0-3.9":9,"4.0-4.9":10,"5.0-5.9":12,"6.0-6.9":13},"100-119":{"3.0-3.9":7,"4.0-4.9":8,"5.0-5.9":9,"6.0-6.9":10}},"40_44":{"160-179":{"3.0-3.9":13,"4.0-4.9":15,"5.0-5.9":17,"6.0-6.9":19},"140-159":{"3.0-3.9":9,"4.0-4.9":11,"5.0-5.9":12,"6.0-6.9":14},"120-139":{"3.0-3.9":7,"4.0-4.9":8,"5.0-5.9":9,"6.0-6.9":10},"100-119":{"3.0-3.9":5,"4.0-4.9":6,"5.0-5.9":6,"6.0-6.9":7}}}},"vyras":{"neruko":{"65_69":{"160-179":{"3.0-3.9":26,"4.0-4.9":28,"5.0-5.9":30,"6.0-6.9":32},"140-159":{"3.0-3.9":22,"4.0-4.9":24,"5.0-5.9":26,"6.0-6.9":27},"120-139":{"3.0-3.9":18,"4.0-4.9":20,"5.0-5.9":21,"6.0-6.9":23},"100-119":{"3.0-3.9":15,"4.0-4.9":17,"5.0-5.9":18,"6.0-6.9":19}},"60_64":{"160-179":{"3.0-3.9":20,"4.0-4.9":23,"5.0-5.9":25,"6.0-6.9":27},"140-159":{"3.0-3.9":17,"4.0-4.9":19,"5.0-5.9":20,"6.0-6.9":22},"120-139":{"3.0-3.9":14,"4.0-4.9":15,"5.0-5.9":17,"6.0-6.9":18},"100-119":{"3.0-3.9":11,"4.0-4.9":12,"5.0-5.9":14,"6.0-6.9":15}},"55_59":{"160-179":{"3.0-3.9":16,"4.0-4.9":18,"5.0-5.9":20,"6.0-6.9":23},"140-159":{"3.0-3.9":13,"4.0-4.9":14,"5.0-5.9":16,"6.0-6.9":18},"120-139":{"3.0-3.9":10,"4.0-4.9":11,"5.0-5.9":13,"6.0-6.9":15},"100-119":{"3.0-3.9":8,"4.0-4.9":9,"5.0-5.9":10,"6.0-6.9":12}},"50_54":{"160-179":{"3.0-3.9":12,"4.0-4.9":14,"5.0-5.9":16,"6.0-6.9":19},"140-159":{"3.0-3.9":10,"4.0-4.9":11,"5.0-5.9":13,"6.0-6.9":15},"120-139":{"3.0-3.9":7,"4.0-4.9":9,"5.0-5.9":10,"6.0-6.9":12},"100-119":{"3.0-3.9":6,"4.0-4.9":7,"5.0-5.9":8,"6.0-6.9":9}},"45_49":{"160-179":{"3.0-3.9":9,"4.0-4.9":11,"5.0-5.9":13,"6.0-6.9":16},"140-159":{"3.0-3.9":7,"4.0-4.9":8,"5.0-5.9":10,"6.0-6.9":12},"120-139":{"3.0-3.9":5,"4.0-4.9":6,"5.0-5.9":8,"6.0-6.9":9},"100-119":{"3.0-3.9":4,"4.0-4.9":5,"5.0-5.9":6,"6.0-6.9":7}},"40_44":{"160-179":{"3.0-3.9":7,"4.0-4.9":9,"5.0-5.9":11,"6.0-6.9":13},"140-159":{"3.0-3.9":5,"4.0-4.9":6,"5.0-5.9":8,"6.0-6.9":10},"120-139":{"3.0-3.9":4,"4.0-4.9":5,"5.0-5.9":6,"6.0-6.9":7},"100-119":{"3.0-3.9":3,"4.0-4.9":4,"5.0-5.9":4,"6.0-6.9":5}}},"ruko":{"65_69":{"160-179":{"3.0-3.9":36,"4.0-4.9":39,"5.0-5.9":42,"6.0-6.9":44},"140-159":{"3.0-3.9":31,"4.0-4.9":33,"5.0-5.9":36,"6.0-6.9":38},"120-139":{"3.0-3.9":26,"4.0-4.9":28,"5.0-5.9":30,"6.0-6.9":33},"100-119":{"3.0-3.9":22,"4.0-4.9":24,"5.0-5.9":26,"6.0-6.9":28}},"60_64":{"160-179":{"3.0-3.9":31,"4.0-4.9":33,"5.0-5.9":36,"6.0-6.9":40},"140-159":{"3.0-3.9":25,"4.0-4.9":28,"5.0-5.9":31,"6.0-6.9":33},"120-139":{"3.0-3.9":21,"4.0-4.9":23,"5.0-5.9":25,"6.0-6.9":28},"100-119":{"3.0-3.9":17,"4.0-4.9":19,"5.0-5.9":21,"6.0-6.9":23}},"55_59":{"160-179":{"3.0-3.9":25,"4.0-4.9":28,"5.0-5.9":32,"6.0-6.9":35},"140-159":{"3.0-3.9":21,"4.0-4.9":23,"5.0-5.9":26,"6.0-6.9":29},"120-139":{"3.0-3.9":17,"4.0-4.9":19,"5.0-5.9":22,"6.0-6.9":25},"100-119":{"3.0-3.9":13,"4.0-4.9":15,"5.0-5.9":17,"6.0-6.9":19}},"50_54":{"160-179":{"3.0-3.9":21,"4.0-4.9":24,"5.0-5.9":28,"6.0-6.9":31},"140-159":{"3.0-3.9":17,"4.0-4.9":19,"5.0-5.9":22,"6.0-6.9":25},"120-139":{"3.0-3.9":13,"4.0-4.9":15,"5.0-5.9":17,"6.0-6.9":20},"100-119":{"3.0-3.9":10,"4.0-4.9":12,"5.0-5.9":14,"6.0-6.9":16}},"45_49":{"160-179":{"3.0-3.9":17,"4.0-4.9":20,"5.0-5.9":24,"6.0-6.9":28},"140-159":{"3.0-3.9":13,"4.0-4.9":16,"5.0-5.9":18,"6.0-6.9":22},"120-139":{"3.0-3.9":10,"4.0-4.9":12,"5.0-5.9":14,"6.0-6.9":17},"100-119":{"3.0-3.9":8,"4.0-4.9":9,"5.0-5.9":11,"6.0-6.9":13}},"40_44":{"160-179":{"3.0-3.9":14,"4.0-4.9":17,"5.0-5.9":20,"6.0-6.9":24},"140-159":{"3.0-3.9":11,"4.0-4.9":13,"5.0-5.9":16,"6.0-6.9":19},"120-139":{"3.0-3.9":8,"4.0-4.9":10,"5.0-5.9":12,"6.0-6.9":14},"100-119":{"3.0-3.9":6,"4.0-4.9":7,"5.0-5.9":9,"6.0-6.9":11}}}}}</script>
+    <script>
+        function copyToClipboard() {
+            const summary = document.getElementById('summary')
+            summary.select()
+            summary.setSelectionRange(0, 99999) // For mobile devices
+            document.execCommand('copy')
+            alert('Nukopijuotas sugeneruotas tekstas.')
+        }
+
+        function metabolinioSindromoKriterijaiCalculate() {
+            // Padidėjusi liemens apimtis 
+            let sex = document.querySelector('input[name="sex"]:checked') ? document.querySelector('input[name="sex"]:checked').value : ''
+            let waist = document.getElementById('waist').value
+
+            // Padidėjusi kraujo serumo trigliceridų koncentracija
+            // arba asmuo vartoja lipidus mažinančius vaistus
+            let tgl = document.getElementById('tgl').value
+            let lipiduVaistai = document.querySelector('input[name="lipidu-vaistai"]:checked') ? document.querySelector('input[name="lipidu-vaistai"]:checked').value : ''
+
+            // Sumažėjusi kraujo serumo DTL cholesterolio koncentracija
+            // arba asmuo vartoja lipidus mažinančius vaistus
+            let dtl = document.getElementById('dtl').value
+
+            // Padidėjęs AKS
+            // arba asmuo, kuriam nustatyta arterinė hipertenzija, vartoja antihipertenzinius vaistus
+            let aksSistolinis = document.getElementById('aks-sistolinis').value
+            let aksDiastolinis = document.getElementById('aks-diastolinis').value
+            let ahVaistai = document.querySelector('input[name="ah-vaistai"]:checked') ? document.querySelector('input[name="ah-vaistai"]:checked').value : ''
+
+            // Padidėjusi alkio glikemija
+            // arba asmuo vartoja glikemiją mažinančius vaistus
+            let glucose = document.getElementById('glucose').value
+            let glikemijosVaistai = document.querySelector('input[name="glikemijos-vaistai"]:checked') ? document.querySelector('input[name="glikemijos-vaistai"]:checked').value : ''
+
+            if (sex && waist && tgl && lipiduVaistai && dtl && aksSistolinis && aksDiastolinis && ahVaistai && glucose && glikemijosVaistai) {
+                let metaboliniuKriterijuSkaicius = 0
+                // Padidėjusi kraujo serumo trigliceridų koncentracija (arba vaistai)
+                if (tgl >= 1.7 || lipiduVaistai === "taip") {
+                    metaboliniuKriterijuSkaicius++
+                }
+                // Padidėjęs AKS (arba vaistai)
+                if (aksSistolinis >= 130 || aksDiastolinis >= 85 || ahVaistai === "taip") {
+                    metaboliniuKriterijuSkaicius++
+                }
+                // Padidėjusi alkio glikemija (arba vaistai)
+                if (glucose >= 5.6 || glikemijosVaistai === "taip") {
+                    metaboliniuKriterijuSkaicius++
+                }
+                if (sex === "vyras") {
+                    // Padidėjusi liemens apimtis Vyrui
+                    if (waist >= 102) {
+                        metaboliniuKriterijuSkaicius++
+                    }
+                    // Sumažėjusi kraujo serumo DTL cholesterolio koncentracija Vyrui (arba vaistai)
+                    if (dtl < 1 || glikemijosVaistai === "taip") {
+                        metaboliniuKriterijuSkaicius++
+                    }
+                }
+                if (sex === "moteris") {
+                    // Padidėjusi liemens apimtis Moteriai
+                    if (waist >= 88) {
+                        metaboliniuKriterijuSkaicius++
+                    }
+                    // Sumažėjusi kraujo serumo DTL cholesterolio koncentracija Moteriai (arba vaistai)
+                    if (dtl < 1.3 || glikemijosVaistai === "taip") {
+                        metaboliniuKriterijuSkaicius++
+                    }
+                }
+
+                if (metaboliniuKriterijuSkaicius >= 3) {
+                    document.getElementById("metabolic-syndrome-yes").checked = true
+                    document.getElementById("metabolic-syndrome-no").checked = false
+                } else {
+                    document.getElementById("metabolic-syndrome-yes").checked = false
+                    document.getElementById("metabolic-syndrome-no").checked = true
+                }
+
+                document.getElementById('metabolic-syndrome-criteria').value = metaboliniuKriterijuSkaicius
+
+                return true
+            } else {
+                return false
+            }
+        }
+
+        function seimineDislipidemijaCalculate() {
+            let didelisMTL = document.querySelector('input[name="didelisMTL"]')
+            let kraujagysliuLiga = document.querySelector('input[name="kraujagysliuLiga"]')
+            let kraujagysliuLigaGiminei = document.querySelector('input[name="kraujagysliuLigaGiminei"]')
+            let ksantomos = document.querySelector('input[name="ksantomos"]')
+
+            if (didelisMTL.checked === false) {
+                kraujagysliuLiga.disabled = true
+                kraujagysliuLigaGiminei.disabled = true
+                ksantomos.disabled = true
+
+                kraujagysliuLiga.checked = false
+                kraujagysliuLigaGiminei.checked = false
+                ksantomos.checked = false
+            } else {
+                kraujagysliuLiga.disabled = false
+                kraujagysliuLigaGiminei.disabled = false
+                ksantomos.disabled = false
+            }
+
+
+            if (didelisMTL.checked === true && (kraujagysliuLiga.checked === true || kraujagysliuLigaGiminei.checked === true || ksantomos.checked === true)) {
+                document.getElementById("familial-dyslipidemia-yes").checked = true
+                document.getElementById("familial-dyslipidemia-no").checked = false
+            } else {
+                document.getElementById("familial-dyslipidemia-yes").checked = false
+                document.getElementById("familial-dyslipidemia-no").checked = true
+            }
+        }
+
+        function kmiCalculate() {
+            let weightValue = parseFloat(document.getElementById("weight").value)
+            let heightValue = parseFloat(document.getElementById("height").value)
+            let kmiElement = document.getElementById("kmi")
+
+            // Check if both values are valid numbers and greater than zero
+            if (!isNaN(weightValue) && weightValue > 0 && !isNaN(heightValue) && heightValue > 0) {
+                let kmiValue = weightValue / ((heightValue / 100) * (heightValue / 100))
+                kmiElement.value = kmiValue.toFixed(1).toString().replace(".", ",")
+            } else {
+                kmiElement.value = ''
+            }
+        }
+
+        function score2Calculate() {
+            let score2Element = document.getElementById('score2')
+
+            let score2Data = JSON.parse(document.getElementById('my-json-data').textContent)
+            let sex = document.querySelector('input[name="sex"]:checked') ? document.querySelector('input[name="sex"]:checked').value : ''
+            let smokingStatus = document.querySelector('input[name="smoking-status"]:checked') ? document.querySelector('input[name="smoking-status"]:checked').value : ''
+            let age = document.getElementById('age').value
+            let aksSistolinis = document.getElementById('aks-sistolinis').value
+            let nedtl = document.getElementById('nedtl').value
+            let ageGroup = ''
+            let aksGroup = ''
+            let nedtlGroup = ''
+
+            score2Element.setAttribute('placeholder', 'Nepakanka duomenų')
+            score2Element.value = ''
+
+            if (sex && smokingStatus && age && aksSistolinis && nedtl) {
+                let goodToGo = true
+
+                if (smokingStatus === "rūko") { smokingStatus = "ruko" }
+                if (smokingStatus === "nerūko") { smokingStatus = "neruko" }
+
+                // AGE
+                age = parseInt(age, 10)
+                if (age >= 65 && age <= 69) { ageGroup = "65_69" }
+                if (age >= 60 && age <= 64) { ageGroup = "60_64" }
+                if (age >= 55 && age <= 59) { ageGroup = "55_59" }
+                if (age >= 50 && age <= 54) { ageGroup = "50_54" }
+                if (age >= 45 && age <= 49) { ageGroup = "45_49" }
+                if (age >= 40 && age <= 44) { ageGroup = "40_44" }
+                // TODO
+                if (age < 40 || age > 69) {
+                    goodToGo = false
+                    score2Element.value = ''
+                    score2Element.setAttribute('placeholder', 'Netinkamas amžius')
+                }
+
+                // AKS
+                aksSistolinis = parseInt(aksSistolinis, 10)
+                if (aksSistolinis >= 160 && aksSistolinis <= 179) { aksGroup = "160-179" }
+                if (aksSistolinis >= 140 && aksSistolinis <= 159) { aksGroup = "140-159" }
+                if (aksSistolinis >= 120 && aksSistolinis <= 139) { aksGroup = "120-139" }
+                if (aksSistolinis >= 100 && aksSistolinis <= 119) { aksGroup = "100-119" }
+                // TODO
+                if (aksSistolinis < 100 || aksSistolinis > 179) {
+                    goodToGo = false
+                    score2Element.value = ''
+                    score2Element.setAttribute('placeholder', 'Netinkamas AKS')
+
+                }
+
+                // neDTL
+                nedtl = parseFloat(nedtl.replace(",", "."))
+                if (nedtl >= 6.0 && nedtl <= 6.9) { nedtlGroup = "6.0-6.9" }
+                if (nedtl >= 5.0 && nedtl <= 5.9) { nedtlGroup = "5.0-5.9" }
+                if (nedtl >= 4.0 && nedtl <= 4.9) { nedtlGroup = "4.0-4.9" }
+                if (nedtl >= 3.0 && nedtl <= 3.9) { nedtlGroup = "3.0-3.9" }
+                // TODO
+                if (nedtl < 3.0 || nedtl > 6.9) {
+                    goodToGo = false
+                    score2Element.value = ''
+                    score2Element.setAttribute('placeholder', 'Netinkamas neDTL')
+                }
+
+                if (goodToGo === true) {
+                    let score2Value = score2Data[sex][smokingStatus][ageGroup][aksGroup][nedtlGroup]
+                    if (!isNaN(score2Value)) {
+                        score2Element.value = score2Value
+                    }
+                }
+
+            } else {
+                score2Element.value = ''
+            }
+        }
+
+        function riskGroupCalculate() {
+            let score2Value = document.getElementById('score2').value
+            if (score2Value) {
+                let age = document.getElementById('age').value
+                if (age < 50) {
+                    if (score2Value < 2.5) {
+                        document.getElementById('cvd-risk-low-medium').checked = true
+                    } else if (score2Value >= 2.5 && score2Value <= 7.5) {
+                        document.getElementById('cvd-risk-high').checked = true
+                    } else if (score2Value > 7.5) {
+                        document.getElementById('cvd-risk-very-high').checked = true
+                    }
+                } else if (age >= 50) {
+                    if (score2Value < 5) {
+                        document.getElementById('cvd-risk-low-medium').checked = true
+                    } else if (score2Value >= 5 && score2Value < 10) {
+                        document.getElementById('cvd-risk-high').checked = true
+                    } else if (score2Value >= 10) {
+                        document.getElementById('cvd-risk-very-high').checked = true
+                    }
+                }
+            } else {
+                document.getElementById('cvd-risk-low-medium').checked = false
+                document.getElementById('cvd-risk-high').checked = false
+                document.getElementById('cvd-risk-very-high').checked = false
+            }
+
+
+        }
+
+        function fillSummary() {
+
+            let chronicDisease = document.getElementById('chronic-diseases').value.replace(/\.$/, "") || "-"
+            let medications = document.getElementById('medications').value.replace(/\.$/, "") || "-"
+            let glucose = document.getElementById('glucose').value.replace(".", ",") || "xx"
+            let totalCholesterol = document.getElementById('total-cholesterol').value.replace(".", ",") || "xx"
+            let mtl = document.getElementById('mtl').value.replace(".", ",") || "xx"
+            let dtl = document.getElementById('dtl').value.replace(".", ",") || "xx"
+            let nedtl = document.getElementById('nedtl').value.replace(".", ",") || "xx"
+            let creatinine = document.getElementById('creatinine').value.replace(".", ",") || "xx"
+            let gfg = document.getElementById('gfg').value.replace(".", ",") || "xx"
+            let heartRate = document.getElementById('heart-rate').value || "xx"
+            let ksh = document.querySelector('input[name="ksh"]:checked') ? document.querySelector('input[name="ksh"]:checked').value : '?'
+            let metabolicSyndromeCriteria = document.getElementById('metabolic-syndrome-criteria').value || "?"
+            let metabolicSyndrome = document.querySelector('input[name="metabolic-syndrome"]:checked') ? document.querySelector('input[name="metabolic-syndrome"]:checked').value : '?'
+            let familialDyslipidemia = document.querySelector('input[name="familial-dyslipidemia"]:checked') ? document.querySelector('input[name="familial-dyslipidemia"]:checked').value : '?'
+            let score2 = document.getElementById('score2').value || "xx"
+            let cvdRiskGroup = document.querySelector('input[name="cvd-risk-group"]:checked') ? document.querySelector('input[name="cvd-risk-group"]:checked').value : '?'
+            let aksSistolinis = document.getElementById('aks-sistolinis').value || "xxx"
+            let aksDiastolinis = document.getElementById('aks-diastolinis').value || "xx"
+            let weight = document.getElementById('weight').value.replace(".", ",") || "xx"
+            let height = document.getElementById('height').value.replace(".", ",") || "xx"
+            let waist = document.getElementById('waist').value.replace(".", ",") || "xx"
+            let kmi = document.getElementById('kmi').value.replace(".", ",") || "xx"
+            let smokingStatus = document.querySelector('input[name="smoking-status"]:checked') ? document.querySelector('input[name="smoking-status"]:checked').value : '?'
+            let alcoholUse = document.querySelector('input[name="alcohol-use"]:checked') ? document.querySelector('input[name="alcohol-use"]:checked').value : '?'
+
+            if (ksh === "ne") { ksh = "KSH požymių nėra" }
+            if (ksh === "taip") { ksh = "yra KSH požymių" }
+
+            if (metabolicSyndrome === "nėra") { metabolicSyndrome = " Metabolinio sindromo nėra." }
+            if (metabolicSyndrome === "yra") { metabolicSyndrome = " Yra metabolinis sindromas." }
+
+            let summary1 = `Vertinama pagal ŠKL prevencijos programą. Lėtinės ligos: ${chronicDisease}. Vartojami vaistai: ${medications}.\n1 - Vertinami kraujo tyr. (aptarti): Glikemija — ${glucose} mmol/l, lipidograma: B. chol — ${totalCholesterol} mmol/l, MTL — ${mtl} mmol/l, DTL — ${dtl} mmol/l, neDTL — ${nedtl} mmol/l. Kreatininas — ${creatinine} µmol/l, GFG — ${gfg} ml/min/1,73m\u00B2.\nEKG — SR, ŠSD — ${heartRate} k/min, ${ksh}.\n2 - Metabolinio sindromo kriterijai: ${metabolicSyndromeCriteria}/5.${metabolicSyndrome}\n3 - Vertinama šeiminės dislipidemijos tikimybė, pagal modifikuotus šeiminės dislipidemijos tikimybės diagnostikos kriterijus: ${familialDyslipidemia}.\n4 - Vertinama SCORE2 — SCORE2 skalė: ${score2} %.\n5 - Nustatoma širdies ir kraujagyslių ligų rizikos grupė — ${cvdRiskGroup}.`
+
+
+            let summary2 = `Širdies tonai ritmiški, AKS ${aksSistolinis}/${aksDiastolinis} mmHg, ŠSD ${heartRate} k/min.\nPlaučiuose alsavimas be karkalų. KD — 18. Cianozės nestebima.\nPilvas minkštas, neskausmingas. Oda ir gleivinės be pakitimų. Kojose edemų nestebima. Pėdų būklė gera.\nSvoris — ${weight} kg;\nŪgis — ${height} cm;\nLiemens apimtis — ${waist} cm;\nKMI — ${kmi} kg/m\u00B2.`
+
+
+            let siektinasMTL = 'xx'
+            if (cvdRiskGroup === "maža ir vidutinė") { siektinasMTL = "<2,6 mmol/l" }
+            if (cvdRiskGroup === "didelė") { siektinasMTL = "<1,8 mmol/l" }
+            if (cvdRiskGroup === "labai didelė") { siektinasMTL = "<1,4 mmol/l" }
+
+            let kmiRekomendacija = ''
+            if (parseFloat(kmi.replace(",", ".")) >= 25) {
+                kmiRekomendacija = "Norint pasiekti KMI būtina didinti fizinį aktyvumą ir mažinti suvartojamų kalorijų kiekį."
+            }
+
+            let rukymoRekomendacija = '?'
+            if (smokingStatus === "rūko") { rukymoRekomendacija = 'rūko. Nurodytos pagalbos priemonės mesti rūkyti. Metimas rūkyti: informuota dėl žalingo rūkymo poveikio, informuota apie pagalbos priemones.' }
+            if (smokingStatus === "nerūko") { rukymoRekomendacija = 'nerūko. Vengti pasyvaus rūkymo.' }
+
+            let alkoholioRekomendacija = '?'
+            if (alcoholUse === "nustatytas") { alkoholioRekomendacija = 'rizikingas vartojimas nustatytas. Nurodytos pagalbos priemonės rizikai sumažinti.' }
+            if (alcoholUse === "nenustatytas") { alkoholioRekomendacija = 'rizikingas vartojimas nenustatytas.' }
+
+            let summary3 = `Tyrimų ir gydymo planas:\nSekti AKS ir ŠSD, vengti rizikos veiksnių.\n1) Siektinas AKS mažiau 130/80 mmHg.\n2) Siektinas MTL — ${siektinasMTL}. Šiuo metu MTL — ${mtl} mmol/l.\n3) Aptariama dieta ir jos laikymosi galimybės: Dieta: vaisių ir daržovių suvartojimas >200 g per dieną, 35-45 g skaidulų (rekomenduojama iš kruopų), saikingas riešutų suvartojimas (30 g per dieną, nesūdytų), 1-2 porcijos žuvies per savaitę (viena riebi žuvis), ribotas liesos mėsos, neriebių pieno produktų ir skystų augalinių aliejų kiekis, sotieji riebalai <10 % visų suvartojamų riebalų, juos keisti polinesočiausiais riebalais, mažinti transriebalų kiekį, pageidautina, kad jie nebūtų iš perdirbto maisto ir sudarytų <1 % visos suvartojamos energijos, druskos <5-6 g per dieną. Atsisakyti alkoholio, jei vartojamas, riboti suvartojimą iki <100 g per savaitę arba <15 g per dieną. Vengti daug energijos turinčių maisto produktų, tokių kaip cukrumi saldinti gaivieji gėrimai.\n4) Fizinio aktyvumo didinimas: 30-60 minučių vidutinio sunkumo fizinis aktyvumas kasdien, naudinga ir nereguliari fizinė veikla.\n5) Siektinas kūno masės indeksas (KMI) <25, šiuo metu KMI — ${kmi} kg/m\u00B2. ${kmiRekomendacija}\n6) Tabako vartojimo įvertinimas: ${rukymoRekomendacija}\n7) Rizikingo alkoholio vartojimo įvertinimas: ${alkoholioRekomendacija}`
+
+            let rekomendacijos = 'Rekomendacijos: ?'
+            if (cvdRiskGroup === "maža ir vidutinė") { rekomendacijos = "1) Nustatyta ŠKL rizika — maža / vidutinė.\n2) Kitas patikrinimas pagal ŠKL programą po 4 metų." }
+            if (cvdRiskGroup === "didelė") { rekomendacijos = "1) Nustatyta ŠKL rizika — didelė.\n2) Rekonsultacija ŠMK po 6 mėn. gyvensenos pokyčiams ir gydymo rezultatams įvertinti.\n3) Kitas patikrinimas pagal ŠKL programą po 2 metų." }
+            if (cvdRiskGroup === "labai didelė") { rekomendacijos = "1) Nustatyta ŠKL rizika — labai didelė.\n2) Rekonsultacija ŠMK po 6 mėn. gyvensenos pokyčiams ir gydymo rezultatams įvertinti.\n3) Kitas patikrinimas pagal ŠKL programą po 1 metų.\n4) Siuntimas gyd. kardiologui — prašau konsultuoti dėl tolimesnio ištyrimo ir gydymo pagal ŠKL programą nustačius labai didelę riziką." }
+
+            let summary4 = `Rekomendacijos:\n${rekomendacijos}`
+
+            let summary = summary1 + "\n\n\n" + summary2 + "\n\n\n" + summary3 + "\n\n\n" + summary4
+            document.getElementById('summary').value = summary
+        }
+
+        function updateOnInput() {
+            metabolinioSindromoKriterijaiCalculate()
+            seimineDislipidemijaCalculate()
+            kmiCalculate()
+            score2Calculate()
+            riskGroupCalculate()
+            fillSummary()
+        }
+
+    </script>
+</head>
+<style>
+    #chronic-diseases,
+    #medications {
+        width: 100%;
+        height: 5em;
+        box-sizing: border-box;
+    }
+
+    #summary {
+        width: 100%;
+        height: 50em;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <form id="myForm">
+
+        <fieldset>
+            <legend><b>Demografiniai rodikliai:</b></legend>
+            <div>
+                <!-- Lytis -->
+                <label for="sex">Paciento lytis:</label><br>
+                <input type="radio" id="sex-male" name="sex" value="vyras" oninput="updateOnInput()">
+                <label for="sex-male">Vyras</label><br>
+                <input type="radio" id="sex-female" name="sex" value="moteris" oninput="updateOnInput()">
+                <label for="sex-female">Moteris</label><br><br>
+            </div>
+            <div>
+                <!-- Amžius -->
+                <label for="age">Paciento amžius:</label><br>
+                <input type="number" min="40" , step="1" id="age" name="age" oninput="updateOnInput()">
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Žalingi įpročiai</b></legend>
+            <div>
+                <!-- Rūkymas -->
+                <label for="smoking-status">Tabako vartojimo įvertinimas:</label><br>
+                <input type="radio" id="smoking-status-smokes" name="smoking-status" value="rūko"
+                    oninput="updateOnInput()">
+                <label for="smoking-status-smokes">Rūko</label><br>
+                <input type="radio" id="smoking-status-non-smoker" name="smoking-status" value="nerūko"
+                    oninput="updateOnInput()">
+                <label for="smoking-status-non-smoker">Nerūko</label><br><br>
+            </div>
+            <div>
+                <!-- Alkoholis -->
+                <label for="alcohol-use">Rizikingo alkoholio vartojimo įvertinimas:</label><br>
+                <input type="radio" id="alcohol-use-yes" name="alcohol-use" value="nustatytas"
+                    oninput="updateOnInput()">
+                <label for="alcohol-use-yes">Nustatytas</label><br>
+                <input type="radio" id="alcohol-use-no" name="alcohol-use" value="nenustatytas"
+                    oninput="updateOnInput()">
+                <label for="alcohol-use-no">Nenustatytas</label>
+            </div>
+        </fieldset><br>
+
+        <!-- Lėtinės ligos -->
+        <label for="chronic-diseases">Lėtinės ligos:</label><br>
+        <textarea id="chronic-diseases" name="chronic-diseases" placeholder="Lėtinės ligos..."
+            oninput="updateOnInput()"></textarea><br><br>
+
+        <!-- Vartojami vaistai-->
+        <label for="medications">Vartojami vaistai:</label><br>
+        <textarea id="medications" name="medications" placeholder="Vartojami vaistai..."
+            oninput="updateOnInput()"></textarea><br><br>
+
+        <fieldset>
+            <legend><b>Pagrindinių vaistų anamnezė:</b></legend>
+            <div>
+                <!-- Lipidus mažinantys vaistai -->
+                <label for="lipidu-vaistai">Pacientas vartoja lipidus mažinančius vaistus?</label><br>
+                <input type="radio" id="lipidu-vaistai-taip" name="lipidu-vaistai" value="taip"
+                    oninput="updateOnInput()">
+                <label for="lipidu-vaistai-taip">Taip</label><br>
+                <input type="radio" id="lipidu-vaistai-ne" name="lipidu-vaistai" value="ne" oninput="updateOnInput()">
+                <label for="lipidu-vaistai-ne">Ne</label><br><br>
+            </div>
+            <div>
+                <!-- AH vaistai / AH -->
+                <label for="ah-vaistai">Pacientas, kuriam nustatyta AH, vartoja antihipertenzinius vaistus?</label><br>
+                <input type="radio" id="ah-vaistai-taip" name="ah-vaistai" value="taip" oninput="updateOnInput()">
+                <label for="ah-vaistai-taip">Taip</label><br>
+                <input type="radio" id="ah-vaistai-ne" name="ah-vaistai" value="ne" oninput="updateOnInput()">
+                <label for="ah-vaistai-ne">Ne</label><br><br>
+            </div>
+            <div>
+                <!-- Glikemijos vaistai -->
+                <label for="glikemijos-vaistai">Pacientas vartoja glikemiją mažinančius vaistus?</label><br>
+                <input type="radio" id="glikemijos-vaistai-taip" name="glikemijos-vaistai" value="taip"
+                    oninput="updateOnInput()">
+                <label for="glikemijos-vaistai-taip">Taip</label><br>
+                <input type="radio" id="glikemijos-vaistai-ne" name="glikemijos-vaistai" value="ne"
+                    oninput="updateOnInput()">
+                <label for="glikemijos-vaistai-ne">Ne</label>
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Laboratoriniai tyrimai:</b></legend>
+            <div>
+                <!-- Glikemija -->
+                <label for="glucose">Glikemija (mmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="glucose" name="glucose" oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- Bendras cholesterolis -->
+                <label for="total-cholesterol">Bendras cholesterolis (mmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="total-cholesterol" name="total-cholesterol"
+                    oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- DTL -->
+                <label for="dtl">DTL (mmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="dtl" name="dtl" oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- neDTL -->
+                <label for="nedtl">neDTL (mmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="nedtl" name="nedtl" oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- MTL -->
+                <label for="mtl">MTL (mmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="mtl" name="mtl" oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- Trigliceridai -->
+                <label for="tgl">Trigliceridai (mmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="tgl" name="tgl" oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- Kreatininas -->
+                <label for="creatinine">Kreatininas (µmol/l):</label><br>
+                <input type="number" min="0" step="0.1" id="creatinine" name="creatinine"
+                    oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- GFG -->
+                <label for="gfg">aGFG:</label><br>
+                <input type="number" min="0" step="0.1" id="gfg" name="gfg" oninput="updateOnInput()">
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Širdies rodikliai:</b></legend>
+            <div>
+                <!-- AKS -->
+                <label for="aks-sistolinis">AKS sistolinis / diastolinis (mm/Hg):</label><br>
+                <input type="number" min="0" step="1" max="999" id="aks-sistolinis" name="aks-sistolinis"
+                    oninput="updateOnInput()">
+                <span>/</span>
+                <input type="number" min="0" step="1" max="999" id="aks-diastolinis" name="aks-diastolinis"
+                    oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- ŠSD -->
+                <label for="heart-rate">ŠSD (k/min):</label><br>
+                <input type="number" min="0" id="heart-rate" name="heart-rate" oninput="updateOnInput()"><br><br>
+            </div>
+            <div>
+                <!-- KSH požymiai -->
+                <label for="ksh">KSH požymiai:</label><br>
+                <input type="radio" id="ksh-yes" name="ksh" value="taip" oninput="updateOnInput()">
+                <label for="ksh-yes">Taip</label><br>
+                <input type="radio" id="ksh-no" name="ksh" value="ne" oninput="updateOnInput()">
+                <label for="ksh-no">Ne</label>
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Šeiminės dislipidemijos tikimybės diagnostikos kriterijai:</b></legend>
+
+            <div>
+                <input type="checkbox" id="didelisMTL" name="didelisMTL" oninput="updateOnInput()" />
+                <label for="didelisMTL">MTL ≥ 5 mmol/l (negydant antilipidiniais vaistais)</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="kraujagysliuLiga" name="kraujagysliuLiga" disabled="disabled"
+                    oninput="updateOnInput()" />
+                <label for="kraujagysliuLiga">Diagnozuota ankstyva širdies vainikinių, smegenų ar periferinių arterijų
+                    liga (vyrai &lt;55 metų, moterys &lt;60 metų)</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="kraujagysliuLigaGiminei" name="kraujagysliuLigaGiminei" disabled="disabled"
+                    oninput="updateOnInput()" />
+                <label for="kraujagysliuLigaGiminei">Pirmos eilės giminaičiui yra nustatyta ankstyva širdies vainikinių,
+                    smegenų ar periferinių arterijų liga (vyrams &lt;55 metų, moterims &lt;60 metų)</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="ksantomos" name="ksantomos" disabled="disabled" oninput="updateOnInput()" />
+                <label for="ksantomos">pacientui iki 45 metų nustatytos ksantomos, ksanteliazmos odoje ir sausgyslėse
+                    arba ragenos lankas</label>
+            </div><br>
+
+            <div> <!-- Šeiminės dislipidemijos tikimybė -->
+                <label for="familial-dyslipidemia">Šeiminės dislipidemijos tikimybė<i> (apskaičiuota
+                        automatiškai)</i>:</label><br>
+                <input type="radio" id="familial-dyslipidemia-yes" name="familial-dyslipidemia" value="yra"
+                    disabled="disabled">
+                <label for="familial-dyslipidemia-yes">Yra</label><br>
+                <input type="radio" id="familial-dyslipidemia-no" name="familial-dyslipidemia" value="nėra"
+                    disabled="disabled">
+                <label for="familial-dyslipidemia-no">Nėra</label>
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Matavimai:</b></legend>
+            <div>
+                <!-- Svoris -->
+                <label for="weight">Svoris (kg):</label><br>
+                <input type="number" min="0" step="0.1" id="weight" name="weight" oninput="updateOnInput()"><br><br>
+            </div>
+
+            <div>
+                <!-- Ūgis -->
+                <label for="height">Ūgis (cm):</label><br>
+                <input type="number" min="0" id="height" name="height" oninput="updateOnInput()"><br><br>
+            </div>
+
+            <div>
+                <!-- Liemuo -->
+                <label for="waist">Liemens apimtis (cm):</label><br>
+                <input type="number" min="0" step="0.1" id="waist" name="waist" oninput="updateOnInput()"><br><br>
+            </div>
+
+            <div>
+                <!-- KMI -->
+                <label for="kmi">KMI (kg/m<sup>2</sup>):</label><br>
+                <input type="text" id="kmi" name="kmi" placeholder="Nepakanka duomenų" readonly="readonly">
+                <span><i>(apskaičiuota automatiškai)</i></span>
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Metabolinis sindromas</b></legend>
+            <div>
+                <!-- Metabolinis sindromo kriterijai -->
+                <label for="metabolic-syndrome-criteria">Metabolinio sindromo kriterijai (x iš 5):</label><br>
+                <input type="text" placeholder="Nepakanka duomenų" id="metabolic-syndrome-criteria"
+                    name="metabolic-syndrome-criteria" readonly="readonly">
+                <span><i>(apskaičiuota automatiškai)</i></span>
+                <br><br>
+            </div>
+            <div>
+                <!-- Metabolinis sindromas yra/nėra -->
+                <label for="metabolic-syndrome">Metabolinis sindromas <i>(apskaičiuota automatiškai)</i>:</label><br>
+                <input type="radio" id="metabolic-syndrome-yes" name="metabolic-syndrome" value="yra"
+                    disabled="disabled">
+                <label for=" metabolic-syndrome-yes">Yra</label><br>
+                <input type="radio" id="metabolic-syndrome-no" name="metabolic-syndrome" value="nėra"
+                    disabled="disabled">
+                <label for=" metabolic-syndrome-no">Nėra</label><br><br>
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend><b>Apskaičiuota rizika:</b></legend>
+            <div>
+                <!-- Score2 -->
+                <label for="score2">SCORE2 skalė (%):</label><br>
+                <input type="text" placeholder="Nepakanka duomenų" id="score2" name="score2" readonly="readonly">
+                <span><i>(apskaičiuota automatiškai)</i></span><br><br>
+            </div>
+            <div>
+                <!-- ŠKL rizikos grupė -->
+                <label for="cvd-risk-group">ŠKL rzikos grupė: <i>(apskaičiuota automatiškai)</i></label><br>
+                <input type="radio" id="cvd-risk-low-medium" name="cvd-risk-group" value="maža ir vidutinė"
+                    disabled="disabled">
+                <label for="cvd-risk-low-medium">Maža ir vidutinė</label><br>
+                <input type="radio" id="cvd-risk-high" name="cvd-risk-group" value="didelė" disabled="disabled">
+                <label for="cvd-risk-high">Didelė</label><br>
+                <input type="radio" id="cvd-risk-very-high" name="cvd-risk-group" value="labai didelė"
+                    disabled="disabled">
+                <label for="cvd-risk-very-high">Labai didelė</label>
+            </div>
+        </fieldset><br>
+
+        <!-- Sugeneruotas tekstas -->
+        <br>
+        <label for="summary">Sugeneruotas tekstas:</label><br>
+        <textarea id="summary" name="summary" readonly></textarea><br><br>
+        <button type="button" onclick="copyToClipboard()">Kopijuoti sugeneruotą tekstą</button><br><br>
+
+    </form>
+    <button onclick="clearInputField()">Viską išvalyti</button>
+    <script>
+
+        function clearInputField() {
+            document.getElementById('myForm').reset()
+        }
+
+        function disableInputScrolling() {
+            document.addEventListener("wheel", function (event) {
+                if (document.activeElement.type === "number") {
+                    document.activeElement.blur()
+                }
+            })
+        }
+
+        disableInputScrolling()
+        clearInputField()
+    </script>
+</body>
+
+</html>
